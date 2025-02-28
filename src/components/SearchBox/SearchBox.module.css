@@ -1,0 +1,27 @@
+.searchBox {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.inputBox {
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 360px;
+    height: 30px;
+    border: 2px solid gray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: border 250ms ease, color 250ms ease;
+}
+
+.inputBox:hover,
+.inputBox:focus {
+    border: 2px solid #4f4fff;
+}
